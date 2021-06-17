@@ -1,6 +1,20 @@
 # Kotlin Basic Repository
 
+Extension Function example: 
 
+    class Box(var length: Int, var width: Int, var height: Int){
+
+        fun getVolume() = length*width*height
+
+    }
+    
+    //Extension function
+    fun Box.expand(fold: Int) = Box(length*fold, width*fold, height*fold)
+    
+    val smallBox = Box(3,2,5)
+    val biggerBox = smallBox.expand(2)
+    println(smallBox.getVolume())
+    println(biggerBox.getVolume())
 
 
 </br></br>
