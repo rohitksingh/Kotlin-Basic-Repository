@@ -15,6 +15,13 @@ Extension Function example:
     val biggerBox = smallBox.expand(2)
     println(smallBox.getVolume())
     println(biggerBox.getVolume())
+    
+    
+ [Scope function](https://www.youtube.com/watch?v=Vy-dS2SVoHk)
+ 
+ 
+    
+    
 
 
 </br></br>
